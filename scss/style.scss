@@ -1,0 +1,145 @@
+$icon-size:50px;
+
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-family: 'Zen Loop', cursive;
+}
+
+
+
+
+// Style css =====================================
+.navbar {
+    background: #000000a8;
+
+    a#main-logo{
+        font-size: 25px;
+        background: transparent;
+        text-decoration: none;
+        border: 3px solid #12e6c2a8;
+        padding: 0 8px;
+        border-radius: 15px 1px 15px;
+        color: white;
+    }
+    a#main-logo:hover{
+        background: #000;
+        border-radius: 1px 15px 1px;
+        border-color: #e93737bb;
+        color: #d8d6d2d3;
+    }
+
+    .nav-item {
+        padding-left: 1em;
+
+        .nav-link {
+            text-transform: uppercase;
+        }
+    }
+}
+// Carousel----------------
+.carousel-item {
+    height: 600px;
+}
+.caruosel--img-1 {
+    background-image: radial-gradient(circle at top right, rgba(36, 9, 119, 0.7) 0%, rgba(36, 9, 119, 0.7) 48%,rgba(72, 7, 149, 0.7) 48%, rgba(72, 7, 149, 0.7) 53%,rgba(109, 5, 178, 0.7) 53%, rgba(109, 5, 178, 0.7) 56%,rgba(145, 2, 208, 0.7) 56%, rgba(145, 2, 208, 0.7) 69%,rgba(181, 0, 237, 0.7) 69%, rgba(181, 0, 237, 0.7) 100%), url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.caruosel--img-2 {
+    background-image: radial-gradient(circle at top right, rgba(36, 9, 119, 0.7) 0%, rgba(36, 9, 119, 0.7) 38%,rgba(72, 7, 149, 0.7) 38%, rgba(72, 7, 149, 0.7) 63%,rgba(109, 5, 178, 0.7) 63%, rgba(109, 5, 178, 0.7) 56%,rgba(145, 2, 208, 0.7) 56%, rgba(145, 2, 208, 0.7) 69%,rgba(181, 0, 237, 0.7) 69%, rgba(181, 0, 237, 0.7) 100%), url(../img/portfolio.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.caruosel--img-3 {
+    background-image: radial-gradient(circle at top right, rgba(36, 9, 119, 0.7) 0%, rgba(36, 9, 119, 0.7) 48%,rgba(72, 7, 149, 0.7) 48%, rgba(72, 7, 149, 0.7) 53%,rgba(109, 5, 178, 0.7) 53%, rgba(109, 5, 178, 0.7) 56%,rgba(145, 2, 208, 0.7) 56%, rgba(145, 2, 208, 0.7) 69%,rgba(181, 0, 237, 0.7) 69%, rgba(181, 0, 237, 0.7) 100%), url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+// Home Icon ===================
+#home_icon{
+    background: white;
+    #icon-box{
+        i{font-size: $icon-size;}
+    }
+    #icon-box:hover i{
+        color: #f54343e7;
+    }
+}
+// Get-Started ==================
+#get-started{
+    background: linear-gradient(#4ec4dce0, #4ec4dce0), url(../img/bg1.jpeg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+footer{
+    a{
+        font-family: 'Zen Loop', cursive;
+    }
+    .social-icon{
+        i{
+            font-size: 20px;
+            cursor: pointer;
+        }
+        i:hover{
+            color: #00d9ff;
+        }
+    }
+    .footer-img img{
+        max-height: 255px;
+    }
+}
+/* ================================================
+            About Us
+================================================ */
+#testimonial{
+    .slick-prev::before,.slick-next::before{
+        color: #000;
+    }
+}
+
+#services{
+    .card:hover .card-header{
+        background: #0069D9;
+        color: white;
+    }
+}
+#portfolio{
+    background: url(../img/banner-min.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    .portfolio-btn{
+        .mixitup-control-active{
+            background: white;
+            color: #000;
+        }
+    }
+}
+
+
+
+
+@media (max-width:992px) {
+    
+}
+
+@media (max-width:575px) {
+    .navbar{
+        a#main-logo{
+            font-size: 22px;
+        }
+    }
+    #showcase{
+        .carousel-inner{
+            h2{
+                font-size: 30px;
+            }
+        }
+    }
+}
+
